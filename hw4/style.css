@@ -1,0 +1,42 @@
+
+div.top{
+    background-color: deepskyblue;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+div.leftside{
+    background-color: darkgreen;
+    width: 120px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    float: left;
+}
+
+div.rightside{
+    background-color: darkgreen;
+    width: 120px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    float: right;
+}
+
+div.center{
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: darkkhaki;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+
+div.bottom{
+    clear: both;
+    background-color: deepskyblue;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}

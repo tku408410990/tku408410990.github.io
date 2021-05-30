@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 3</title>
+</head>
+<body>
+    <h1>Tamkang University</h1>
+    <hr/>
+    <form name="test" action="http://httpbin.org/get" method="get">
+        個人資料<br>
+        Email : <input name="email" type="email" /><br>
+        個人網站 : <input name="website" type="url" /><a href="../hw2/index.html" target="_blank"> 點我</a><br>
+        連絡電話 : <input name="tel" type="tel" /><br>
+        行動電話帳單平均：<input name="bill" type="number" /><br>
+        喜歡的色彩:<input name="mycolor" type="color" /><br>
+        請問喜歡的食物：<br>
+        <select name="brand" size="5" multiple>
+            <option value="1">中式餐點</option>
+            <option value="2">日式料理</option>
+            <option value="3">義大利麵</option>
+            <option value="4">漢堡</option>
+        </select>
+        <br>
+        請問您想參加的行程：
+        <select name="tour">
+            <optgroup label="國內">
+                <option value="1">北投溫泉之旅</option>
+                <option value="2">阿里山賞櫻</option>
+            </optgroup>
+            <optgroup label="國外">
+                <option value="3">苗栗國一日遊</option>
+                <option value="4">首爾7日遊</option>
+            </optgroup>
+        </select>
+        <hr>
+        對本站的評分：不喜歡<input name="score" type="range" min="1" max="5"/>喜歡<br />
+        對本站的意見：<br>
+        <textarea name="comment" rows="5" cols="25"></textarea><br>
+        日期時間<input name="setdatetime" type="datetime-local" /><br><br>
+        <input type="reset" value="清除重填" />
+        <input type="submit" value="填完送出" />
+    </form>
+</body>
+</html>

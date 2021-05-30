@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>HW8</title>
+</head>
+<body>
+    <table BORDER="1">
+        <script>
+            var x = prompt("輸入0-100的數字");
+            for(var j=1;j<=x*2;){
+                for(var i =x;i>j-j/2;i--){
+                    document.write("<span style='white-space:pre;'>"+"  ");
+                }
+                for(var i=0;i<j;i++){
+                    document.write("*");       
+                }
+                document.write("<br>");
+                j=j+2;
+            }
+            for(var j=0;j<x;j++){
+                for(var i =0;i<x;i++){
+                    document.write("<span style='white-space:pre;'>"+"  ");
+                }
+                document.write("*<br>");
+            }
+        </script>
+    </table>
+</body>
+</html>
